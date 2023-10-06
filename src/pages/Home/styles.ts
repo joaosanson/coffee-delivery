@@ -1,9 +1,14 @@
 import styled from 'styled-components'
 
-export const HomeContainer = styled.div``
+export const HomeContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
 
 export const BannerContainer = styled.div`
   display: flex;
+  align-items: center;
   flex-direction: row;
   align-items: center;
   justify-content: center;
