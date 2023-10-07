@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  width: 1440px;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 2rem auto;
 `
 export const HeaderLogo = styled.img``
 

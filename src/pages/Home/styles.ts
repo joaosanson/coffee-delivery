@@ -12,6 +12,7 @@ export const BannerContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  min-width: 1440px;
 `
 
 export const BannerLeftSide = styled.div`
@@ -82,5 +83,8 @@ export const BannerLeftSide = styled.div`
 `
 
 export const BannerRightSide = styled.div`
+  display: flex;
   width: 50%;
+  align-items: center;
+  justify-content: center;
 `
