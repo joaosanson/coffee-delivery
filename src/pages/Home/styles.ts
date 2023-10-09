@@ -10,9 +10,8 @@ export const BannerContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  max-width: 1440px;
+  justify-content: space-between;
+  max-width: 1080px;
   gap: 3.5rem;
 `
 
@@ -83,9 +82,4 @@ export const BannerLeftSide = styled.div`
   }
 `
 
-export const BannerRightSide = styled.div`
-  display: flex;
-  width: auto;
-  align-items: center;
-  justify-content: center;
-`
+export const BannerRightSide = styled.div``

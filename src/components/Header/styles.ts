@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
   display: flex;
-  width: 1440px;
+  width: 1080px;
   justify-content: space-between;
   margin: 2rem auto;
 `
