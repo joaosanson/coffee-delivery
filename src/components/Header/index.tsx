@@ -1,4 +1,10 @@
-import { HeaderContainer, HeaderInfo, HeaderLogo } from './styles'
+import {
+  CartButton,
+  HeaderContainer,
+  HeaderInfo,
+  HeaderLogo,
+  LocationButton,
+} from './styles'
 import headerLogo from '../../assets/HeaderLogo.svg'
 import headerLocation from '../../assets/HeaderLocation.svg'
 import headerCart from '../../assets/HeaderCart.svg'
@@ -9,12 +15,12 @@ export function Header() {
       <HeaderLogo src={headerLogo} />
 
       <HeaderInfo>
-        <div className="location">
+        <LocationButton>
           <img src={headerLocation} alt="" /> Porto Alegre, RS
-        </div>
-        <div className="cart">
+        </LocationButton>
+        <CartButton>
           <img src={headerCart} alt="" />
-        </div>
+        </CartButton>
       </HeaderInfo>
     </HeaderContainer>
   )
