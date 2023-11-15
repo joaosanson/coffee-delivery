@@ -1,19 +1,31 @@
 export const defaultTheme = {
   baloo2: {
-    xl: '48px',
-    l: '32px',
-    m: '24px',
-    s: '20px',
-    xs: '18px',
+    xl: {
+      fontSize: '3rem',
+      lineHeight: '130%',
+      weight: '800',
+    },
+    l: {
+      fontSize: '2rem',
+      lineHeight: '130%',
+      weight: '800',
+    },
+    m: {
+      fontSize: '1.5rem',
+      lineHeight: '130%',
+      weight: '800',
+    },
+    s: {
+      fontSize: '1.25rem',
+      lineHeight: '130%',
+      weight: '700',
+    },
+    xs: {
+      fontSize: '1.125rem',
+      lineHeight: '130%',
+      weight: '700',
+    },
   },
-  // roboto: {
-  //   extraBold: 800,
-  //   boldBallon: 600,
-  //   bold: 700,
-  //   normal: 400,
-  //   roboto: 'Roboto',
-  //   baloo: 'Baloo2',
-  // },
 
   colors: {
     white: '#fff',
