@@ -7,18 +7,33 @@ export const BannerContainer = styled.div`
   max-width: 1080px;
   gap: 3.5rem;
 
-  margin-top: 5.875rem;
+  margin: 5.875rem 0;
+`
+
+export const BannerLeftSide = styled.div`
+  width: 100%;
+`
+
+export const Title = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 
   h1 {
     font-family: 'Baloo 2', sans-serif;
     font-weight: ${(props) => props.theme.baloo2.xl.weight};
     line-height: ${(props) => props.theme.baloo2.xl.lineHeight};
-    font-size: 2.75rem;
+    font-size: 3rem;
   }
-`
 
-export const BannerLeftSide = styled.div`
-  width: 50%;
+  p {
+    font-style: 'Roboto';
+    font-size: 1.25rem;
+    color: ${(props) => props.theme.colors['gray-800']};
+    line-height: 130%;
+  }
+
+  margin-bottom: 4.125rem;
 `
 
 export const Slogans = styled.div`
@@ -26,11 +41,17 @@ export const Slogans = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 0.75rem;
 
+  p {
+    font-size: 1rem;
+    color: ${(props) => props.theme.colors['gray-800']};
+  }
+
   .cart-item {
     gap: 0.75rem;
 
     display: flex;
     align-items: center;
+    width: max-content;
 
     img {
       border: 0;
@@ -41,7 +62,7 @@ export const Slogans = styled.div`
   }
   .box-item {
     gap: 0.75rem;
-
+    width: max-content;
     display: flex;
     align-items: center;
     img {
@@ -55,6 +76,7 @@ export const Slogans = styled.div`
     gap: 0.75rem;
 
     display: flex;
+    width: max-content;
     align-items: center;
 
     img {
@@ -69,6 +91,7 @@ export const Slogans = styled.div`
 
     display: flex;
     align-items: center;
+    width: max-content;
 
     img {
       border: 0;
@@ -76,11 +99,6 @@ export const Slogans = styled.div`
       border-radius: 50px;
       padding: 0.5rem;
     }
-  }
-
-  > * {
-    display: flex;
-    flex-direction: row;
   }
 `
 

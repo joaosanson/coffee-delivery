@@ -3,6 +3,7 @@ import {
   BannerLeftSide,
   BannerRightSide,
   Slogans,
+  Title,
 } from './styles'
 
 import bannerMain from '../../../../assets/BannerMain.svg'
@@ -15,11 +16,13 @@ export function Intro() {
   return (
     <BannerContainer>
       <BannerLeftSide>
-        <h1>Encontre o café perfeito para qualquer hora do dia</h1>
-        <p>
-          Com o Coffee Delivery você recebe seu café onde estiver, a qualquer
-          hora
-        </p>
+        <Title>
+          <h1>Encontre o café perfeito para qualquer hora do dia</h1>
+          <p>
+            Com o Coffee Delivery você recebe seu café onde estiver, a qualquer
+            hora
+          </p>
+        </Title>
         <Slogans>
           <div className="cart-item">
             <img src={cartItem} alt="" />
