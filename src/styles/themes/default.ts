@@ -1,32 +1,4 @@
 export const defaultTheme = {
-  baloo2: {
-    xl: {
-      fontSize: '3rem',
-      lineHeight: '130%',
-      weight: '800',
-    },
-    l: {
-      fontSize: '2rem',
-      lineHeight: '130%',
-      weight: '800',
-    },
-    m: {
-      fontSize: '1.5rem',
-      lineHeight: '130%',
-      weight: '800',
-    },
-    s: {
-      fontSize: '1.25rem',
-      lineHeight: '130%',
-      weight: '700',
-    },
-    xs: {
-      fontSize: '1.125rem',
-      lineHeight: '130%',
-      weight: '700',
-    },
-  },
-
   colors: {
     white: '#fff',
 
