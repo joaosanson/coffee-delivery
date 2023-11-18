@@ -12,7 +12,7 @@ import boxItem from '../../../../assets/BoxItem.svg'
 import clockItem from '../../../../assets/ClockItem.svg'
 import coffeeItem from '../../../../assets/CoffeeItem.svg'
 
-export function Intro() {
+export function Banner() {
   return (
     <BannerContainer>
       <BannerLeftSide>

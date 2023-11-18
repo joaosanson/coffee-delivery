@@ -24,6 +24,7 @@ export const Title = styled.div`
     font-weight: ${(props) => props.theme.baloo2.xl.weight};
     line-height: ${(props) => props.theme.baloo2.xl.lineHeight};
     font-size: 3rem;
+    color: ${(props) => props.theme.colors['gray-800']};
   }
 
   p {

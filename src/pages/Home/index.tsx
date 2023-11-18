@@ -1,13 +1,12 @@
-import { Intro } from './components/Intro'
-import { Product } from './components/Product'
+import { Banner } from './components/Banner'
+import { Catalog } from './components/Catalog'
 import { HomeContainer } from './styles'
 
 export function Home() {
   return (
     <HomeContainer>
-      <Intro />
-      <h2>Nossos cafés</h2>
-      <Product />
+      <Banner />
+      <Catalog />
     </HomeContainer>
   )
 }
